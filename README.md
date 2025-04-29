@@ -7,8 +7,18 @@
 
 首先向作者们和开源者们表示感谢！
 
-由于原作者的ResNeXt的性能评估基于 Cifar10 和 Cifar100，模型并不适合比较大的猫狗的image。
+由于原作者的ResNeXt的性能评估基于 Cifar10 和 Cifar100，原来的模型并不适合比较大的猫狗的image。
+
 在本项目中，model.py被全部修改。
+
+数据集的文件关系如下,train和val 8：2分割。
+- data/
+  - train/
+    - Cat/
+    - Dog/
+  - val/
+    - Cat/
+    - Dog/
 
 ## Usage
 在checkpoints文件夹下，已经有了训练好的模型。
